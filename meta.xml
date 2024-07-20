@@ -1,0 +1,10 @@
+<zFelpszada>
+    <!--// SHARED SCRIPTS \\-->
+    <script src="shared/config.lua" type="shared" cache="false"/>
+    <!--// CLIENT SCRIPTS \\-->
+    <script src="client/c.main.lua" type="client" cache="false"/>
+    <!--// SERVER SCRIPTS \\-->
+    <script src="server/s.main.lua" type="server"/>
+    <!--// EXPORT FUNCTIONS \\-->
+    <export function="setGPS" type="shared"/>
+</zFelpszada>
