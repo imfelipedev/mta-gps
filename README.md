@@ -22,7 +22,7 @@ exports["mta-gps"]:setGPS(player, x, y, z)
 | :-------- | :-------- | :---------------------------- |
 | `player`  | `element` | Player que será criado a seta |
 | `x`       | `float`   | Posição x do mapa             |
-| `y`       | `float`   | POsição y do mapa             |
+| `y`       | `float`   | Posição y do mapa             |
 | `z`       | `float`   | Posição z do mapa             |
 
 #### Setar GPS Via trigger.
@@ -35,7 +35,7 @@ triggerClientEvent(player, "arrow_gps:setGPS", player, x, y, z)
 | :-------- | :-------- | :---------------------------- |
 | `player`  | `element` | Player que será criado a seta |
 | `x`       | `float`   | Posição x do mapa             |
-| `y`       | `float`   | POsição y do mapa             |
+| `y`       | `float`   | Posição y do mapa             |
 | `z`       | `float`   | Posição z do mapa             |
 
 ## Uso/Exemplos
