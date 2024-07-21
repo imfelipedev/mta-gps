@@ -51,6 +51,7 @@ function Arrow:add(player, x, y, z)
             z = z
         }
     }
+    setElementCollisionsEnabled(self.gps[player].object, false)
     setObjectScale(self.gps[player].object, self.config.main.object_size)
     return self:manage()
 end
